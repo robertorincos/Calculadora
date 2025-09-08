@@ -17,9 +17,9 @@ namespace Calculadora
             }
             return operacao;
         }
-        public int soma(Operacoes operacao)
+        public decimal soma(Operacoes operacao)
         {
-            return operacao.valorA + operacao.valorB;
+            return (decimal)operacao.valorA + (decimal)operacao.valorB;
         }
         public int subtracao(Operacoes operacao)
         {
